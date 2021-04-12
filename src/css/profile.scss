@@ -1,0 +1,36 @@
+@import 'variables.scss';
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-field {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.label {
+    min-width: 100px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.profile-heading {
+    font-size: $heading-medium;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.profile-content {
+    display: flex;
+    width: 400px;
+}

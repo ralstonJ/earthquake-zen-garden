@@ -1,0 +1,52 @@
+$titleWidth: 43.3%;
+$magnitudeWidth: 10.3%;
+$timeWidth: 33.3%;
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-container-center {
+    width: 530px;
+}
+
+.home-table-header {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.home-table-row {
+    display: flex;
+    margin-top: 8px;
+}
+
+.title-header {
+    width: $titleWidth;
+    text-align: center;
+}
+
+.magnitude-header {
+    width: $magnitudeWidth;
+    text-align: center;
+}
+
+.time-header {
+    width: $timeWidth;
+    text-align: center;
+}
+
+.title-cell {
+    width: $titleWidth;
+}
+
+.magnitude-cell {
+    width: $magnitudeWidth;
+    text-align: center;
+}
+
+.time-cell {
+    width: $timeWidth;
+    text-align: center;
+}

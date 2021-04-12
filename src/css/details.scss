@@ -1,0 +1,36 @@
+@import 'variables';
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.details-content {
+    display: flex;
+    justify-content: center;
+}
+
+.details-heading {
+    font-size: $heading-medium;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.details-row {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.details-label {
+    font-weight: bold;
+    min-width: 80px;
+    text-align: left;
+}
+
+.details-value {
+    width: 70%;
+    text-align: left;
+}

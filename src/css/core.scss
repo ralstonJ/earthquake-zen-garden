@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+body {
+  color: $dark-grey;
+  font-family: sans-serif;
+}
+
+a,
+a:link {
+  color: $initial-link-color;
+}
+
+a:visited {
+  color: $visited-link;
+}
